@@ -1,12 +1,11 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import './Navbar.scss'
 import Logo from '../../assets/images/Logo.jpg'
 import { RiShoppingCart2Fill } from 'react-icons/ri'
+import { MdOutlineLocalPhone } from 'react-icons/md'
 
-const Navbar = () => { 
-
-
-    const [counterBuy ,setCounterBuy] = useState<number>(2);
+const Navbar = () => {
+    const [counterBuy, setCounterBuy] = useState<number>(2)
     return (
         <div className="navbar">
             <div className="logo">
@@ -15,12 +14,15 @@ const Navbar = () => {
                     {' '}
                     <span>Restaurant</span>2010
                 </h3>
+                <h5>
+                    +970-123-4567 <MdOutlineLocalPhone />
+                </h5>
             </div>
 
             <div className="nav-links">
                 <ul>
                     <li>
-                        <a href="/">التواصل</a>
+                        <a href="/">تواصل معنا</a>
                     </li>
                     <li>
                         <a href="/">عن المطعم</a>
@@ -32,13 +34,10 @@ const Navbar = () => {
                         <a href="/">الرئيسية</a>
                     </li>
                 </ul>
-              
-                
+
                 <button>
-                    Order Now 
-                    
-                         <RiShoppingCart2Fill /> <span>{counterBuy}
-                    </span>
+                    اطلب الأن
+                    <RiShoppingCart2Fill /> <span> {counterBuy}</span>
                 </button>
             </div>
         </div>
