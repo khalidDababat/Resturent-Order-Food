@@ -13,7 +13,6 @@ export default defineConfig([
         plugins: {
             '@typescript-eslint': tsPlugin,
             react: pluginReact,
-            prettier: pluginPrettier,
         },
         languageOptions: {
             parser: tsParser,
