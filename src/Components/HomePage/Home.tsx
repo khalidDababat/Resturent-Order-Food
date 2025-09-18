@@ -12,7 +12,7 @@ const Home = () => {
                     <Navbar />
                 </div>
 
-                <div className="home_content">
+                <div className="home_content ">
                     <h1>
                         <span>Restaurant</span> 2010
                     </h1>

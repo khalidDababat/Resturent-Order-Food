@@ -11,7 +11,6 @@ const Navbar = () => {
             <div className="logo">
                 <img src={Logo} alt="Logo" />
                 <h3>
-                    {' '}
                     <span>Restaurant</span>2010
                 </h3>
                 <h5>
