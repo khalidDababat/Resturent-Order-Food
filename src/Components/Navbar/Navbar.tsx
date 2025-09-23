@@ -14,7 +14,7 @@ const Navbar = () => {
                     <span>Restaurant</span>2010
                 </h3>
                 <h5>
-                    +970-123-4567 <MdOutlineLocalPhone />
+                    <MdOutlineLocalPhone /> +970-123-4567
                 </h5>
             </div>
 
@@ -36,7 +36,8 @@ const Navbar = () => {
 
                 <button>
                     اطلب الأن
-                    <RiShoppingCart2Fill /> <span> {counterBuy}</span>
+                    <span> {counterBuy}</span>
+                    <RiShoppingCart2Fill />
                 </button>
             </div>
         </div>

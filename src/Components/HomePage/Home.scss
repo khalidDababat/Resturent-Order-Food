@@ -47,5 +47,21 @@ header {
                 transition: 0.3s;
             }
         }
+
+        button {
+            background-color: #ec6d13;
+            padding: 15px 30px;
+            width: 150px;
+            border-radius: 15px;
+            font-size: 19px;
+            font-weight: 700;
+            color: black;
+            margin-top: 15px;
+            transition: 0.3s;
+
+            &:hover {
+                color: white;
+            }
+        }
     }
 }

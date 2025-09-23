@@ -1,5 +1,7 @@
 .container {
-    min-height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    
     .title_part {
         margin-top: 50px;
         text-align: center;
@@ -16,8 +18,8 @@
     .PopularFoods {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        margin: 30px 30px;
-        gap: 10px;
+        margin: 30px 0;
+        gap: 20px;
         .item_food {
             img {
                 border: 1px solid #ddd;
@@ -34,8 +36,8 @@
 
             .title {
                 text-align: center;
-                font-size: 18px;
-                font-weight: 700;
+                font-size: 20px;
+                font-weight: 900;
                 padding: 20px 5px;
                 margin-top: 10px;
                 background-color: rgb(229, 231, 233);
