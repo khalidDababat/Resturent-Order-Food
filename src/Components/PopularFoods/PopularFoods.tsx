@@ -6,7 +6,6 @@ import meet from '../../assets/images/bubimg3.png'
 
 import PopularFoodsItem from './PopularFoodsItem'
 const PopularFoods = () => {
-    
     const PupilarFood = [
         {
             id: 1,
@@ -35,20 +34,15 @@ const PopularFoods = () => {
                 <div className="title_part">
                     <h1>اشهر خدماتنا </h1>
                 </div>
-                
+
                 <div className="PopularFoods">
-                    {
-                        PupilarFood.map(item =>(
-                           <PopularFoodsItem 
-                               key={item.id}
-                               title={item.title}
-                               image={item.image} 
-                              
-                           />
-                        ))
-                    }
-                       
-                   
+                    {PupilarFood.map((item) => (
+                        <PopularFoodsItem
+                            key={item.id}
+                            title={item.title}
+                            image={item.image}
+                        />
+                    ))}
                 </div>
             </div>
         </Fragment>

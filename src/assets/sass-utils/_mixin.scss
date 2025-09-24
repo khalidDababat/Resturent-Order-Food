@@ -1,0 +1,4 @@
+@mixin direction($dir: rtl) {
+    direction: $dir;
+    //text-align: $dir == rtl ? right : left;
+}
