@@ -10,27 +10,27 @@ import ContactForm from './ContactForm'
 
 const ContactUs = () => {
     const infoRestaurant = [
-        { 
-            id:1,
+        {
+            id: 1,
             logo: <FaPhoneAlt />,
             title: 'رقم الهاتف',
             description: '+972 56-880-0473',
         },
         {
-            id:2,
+            id: 2,
             logo: <FaLocationDot />,
             title: 'العنوان',
             description:
                 ' طوباس - الشارع الرئيسي - بجانب محطة ابو خضر للمحروقات',
         },
         {
-            id:3, 
+            id: 3,
             logo: <TbClockHour10 />,
             title: 'ساعات العمل',
             description: 'يوميا من 8:00 صباحا حتى 12:00 منتصف الليل',
         },
-        { 
-            id:4,
+        {
+            id: 4,
             logo: <MdEmail />,
             title: 'البريد الإلكتروني',
             description: 'wink-appointed@hotmail.com',
@@ -52,7 +52,7 @@ const ContactUs = () => {
                     <ContactForm />
                 </div>
 
-                <div  className="infoPlace">
+                <div className="infoPlace">
                     {infoRestaurant.map((item) => (
                         <div key={item.id}>
                             <div className="img">{item.logo}</div>
