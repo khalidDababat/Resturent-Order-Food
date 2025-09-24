@@ -22,8 +22,8 @@ const Footer = () => {
                 <div className="second">
                     <h1>الموقع وأوقات العمل</h1>
                     <p>
-                        <FaLocationDot /> الشارع الرئيسي - بجانب كازية ابو خضر
-                        للمحروقات
+                        <FaLocationDot /> طوباس -الشارع الرئيسي - بجانب كازية
+                        ابو خضر للمحروقات
                     </p>
                     <p>
                         <TbClockHour10 /> يوميا من 8:00 صباحا حتى 12:00 منتصف
@@ -38,13 +38,13 @@ const Footer = () => {
                         بطعم أصيل ونكهة لا تُنسى
                     </p>
                     <div className="phone_email">
-                        <a href="">
+                        <a href="tel:+972568800473">
                             <FaPhoneAlt />
-                            +970-123-4567{' '}
+                            <span>+972 56-880-0473</span>
                         </a>
-                        <a href="">
+                        <a href="mailto:wink-appointed@hotmail.com">
                             <MdEmail />
-                            info@restaurant2010.ps
+                            wink-appointed@hotmail.com
                         </a>
                     </div>
                 </div>

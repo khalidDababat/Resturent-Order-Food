@@ -7,7 +7,7 @@ import { IoMdPeople } from 'react-icons/io'
 import { RiSpeedUpLine } from 'react-icons/ri'
 const AboutRestaurant = () => {
     return (
-        <div className="container_about">
+        <div id="container_about" className="container_about">
             <div className="title">
                 <h1>عن مطعم 2010</h1>
                 <p>

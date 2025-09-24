@@ -1,12 +1,26 @@
 .container_footer {
     background-color: #292424;
+    margin-top: 60px;
 
     .Up_footer {
+        // design footer above
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         padding: 20px 30px;
 
+        .second {
+            p {
+                display: flex;
+                gap: 15px;
+            }
+        }
+
+        .third {
+            span {
+                direction: ltr;
+            }
+        }
         > div {
             h1 {
                 font-size: 25px;
@@ -38,11 +52,11 @@
             }
 
             .phone_email {
-                direction: rtl;
                 padding: 10px;
 
                 a {
-                    margin-bottom: 20px;
+                    display: flex;
+                    gap: 10px;
 
                     &:hover {
                         color: #ec6d13;
@@ -53,6 +67,9 @@
         }
     }
 
+    hr {
+        margin: 0px 30px;
+    }
     .down_footer {
         padding: 50px;
         text-align: center;

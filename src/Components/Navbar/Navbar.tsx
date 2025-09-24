@@ -21,10 +21,10 @@ const Navbar = () => {
             <div className="nav-links">
                 <ul>
                     <li>
-                        <a href="/">تواصل معنا</a>
+                        <a href="#container_contactUS">تواصل معنا</a>
                     </li>
                     <li>
-                        <a href="/">عن المطعم</a>
+                        <a href="#container_about">عن المطعم</a>
                     </li>
                     <li>
                         <a href="/">القائمة</a>

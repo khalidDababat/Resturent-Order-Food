@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
 
     .logo {
         display: flex;
@@ -22,6 +25,8 @@
             }
         }
         h5 {
+            display: flex;
+            gap: 10px;
             margin-left: 20px;
             font-size: 19px;
             color: #fcfaf8;

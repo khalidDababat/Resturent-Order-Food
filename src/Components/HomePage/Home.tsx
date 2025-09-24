@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import './Home.scss'
 
 import Navbar from '../Navbar/Navbar'
-//import OrderNow from '../UI/OrderNow';
 
 const Home = () => {
     return (
@@ -16,10 +15,10 @@ const Home = () => {
                     <h1>
                         <span>Restaurant</span> 2010
                     </h1>
-                    <h3>أصالة الطعام الفلسطيني الشعبي </h3>
+                    <h3>أصالة الطعام الفلسطيني الشعبية </h3>
                     <p>
                         احتفل معنا بالنكهات الأصيلة للمطبخ فلسطيني - حمص
-                        فلسطيني، مشاوي على الفحم، وشاورما بطعم لا يُنسى
+                        فلسطيني، مشاوي على الفحم، شاورما بطعم لا تُنسى
                     </p>
                     <button>القائمة </button>
                 </div>
