@@ -1,0 +1,111 @@
+@use '../../assets/sass-utils/mixin';
+
+.container_contactUS {
+    background-color: #f7f2ed;
+    margin: 30px 2px 0px;
+    padding: 10px;
+    min-height: 100vh;
+
+    .title {
+        text-align: center;
+
+        h1 {
+            padding: 5px 5px;
+            font-size: 50px;
+            font-weight: bold;
+            border-bottom: 3px dashed #ec6d13;
+            display: inline;
+        }
+        p {
+            color: #a7a6a5;
+            font-size: 21px;
+            margin-top: 20px;
+        }
+    }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 50px;
+
+        .infoPlace {
+            > div {
+                direction: rtl;
+                display: flex;
+                gap: 20px;
+                background-color: white;
+                padding: 30px 20px;
+                margin-bottom: 20px;
+
+                .img {
+                    background-color: #dbd0c7;
+                    padding: 20px;
+                    border-radius: 40px;
+                    font-weight: 800;
+                    font-size: 19px;
+                }
+                .contain {
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 900;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #8c7d73;
+                        direction: ltr;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+
+        .contactUs {
+            padding: 5px 10px;
+            background-color: white;
+
+            h1 {
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            form {
+                .firstName_lastName {
+                    display: flex;
+                    gap: 10px;
+                }
+                > div {
+                    input {
+                        direction: rtl;
+                        width: 100%;
+                        margin-bottom: 25px;
+                        border-bottom: 1px solid rgb(185, 182, 182);
+                        padding: 10px;
+                    }
+                }
+
+                textarea {
+                    direction: rtl;
+                    border: 1px solid rgb(185, 182, 182);
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+
+                button {
+                    width: 100%;
+                    margin: 1px auto;
+                    padding: 10px;
+                    font-size: 19px;
+                    font-weight: 900;
+                    background-color: #ec6d13;
+                    &:hover {
+                        background-color: #f7c098;
+                        transition: 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}

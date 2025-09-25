@@ -1,0 +1,105 @@
+.navbar {
+    background-color: #292424;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 20px;
+
+        h3 {
+            color: white;
+            font-size: 25px;
+
+            span {
+                margin-right: 5px;
+                color: #ec6d13;
+            }
+        }
+        h5 {
+            display: flex;
+            gap: 10px;
+            margin-left: 20px;
+            font-size: 19px;
+            color: #fcfaf8;
+
+            &:hover {
+                color: #ec6d13;
+            }
+        }
+        img {
+            width: 60px;
+            height: 50px;
+        }
+    }
+
+    .nav-links {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: #ec6d13;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+
+        button {
+            padding: 15px 30px;
+
+            display: flex;
+            gap: 5px;
+            font-size: 18px;
+            border-radius: 15px;
+            font-weight: 700;
+            border: none;
+            background-color: #ec6d13;
+            cursor: pointer;
+            position: relative;
+
+            &:hover {
+                color: white;
+                background-color: #f29a5c;
+                transition: 0.3s;
+            }
+            span {
+                position: absolute;
+                top: -13px;
+                right: -16px;
+                color: black;
+                font-weight: bold;
+                font-size: 19px;
+                padding: 5px 10px;
+                background-color: red;
+                border-radius: 50%;
+
+                &:hover {
+                    background-color: #ec6d13;
+                }
+            }
+        }
+    }
+}
