@@ -14,7 +14,7 @@ const Navbar = () => {
                     <span>Restaurant</span>2010
                 </h3>
                 <h5>
-                    <MdOutlineLocalPhone /> +970-123-4567
+                    <MdOutlineLocalPhone /> +972 56-880-0473
                 </h5>
             </div>
 
