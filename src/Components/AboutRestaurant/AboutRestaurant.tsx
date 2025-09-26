@@ -3,6 +3,7 @@ import './AboutRestaurant.scss'
 
 import { MdOutlineAutoFixHigh } from 'react-icons/md';
 import { PiCampfireFill } from 'react-icons/pi';
+
 import { IoMdPeople } from 'react-icons/io';
 import { RiSpeedUpLine } from 'react-icons/ri'
 const AboutRestaurant = () => {
@@ -20,7 +21,8 @@ const AboutRestaurant = () => {
             <div className="info">
                 <div className="item">
                     <div className="logo">
-                        <PiCampfireFill />
+                        <span> <PiCampfireFill /></span>
+                       
                     </div>
 
                     <h5>شوي على الفحم</h5>
